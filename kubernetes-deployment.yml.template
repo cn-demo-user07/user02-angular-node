@@ -39,6 +39,6 @@ spec:
   selector:
     run: rest-jscreditscore02
   ports:
-    - port: 8088
+    - port: 8102
       targetPort: 3000
   type: ClusterIP
